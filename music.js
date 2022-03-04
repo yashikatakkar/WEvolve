@@ -12,7 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['Fantasy', 'Piano', 'Relaxing_Time', 'Zen_music'];
+const songs = ['music1', 'music2', 'music3', 'music4'];
 
 // Keep track of song
 let songIndex = 2;
@@ -23,8 +23,8 @@ loadSong(songs[songIndex]);
 // Update song details
 function loadSong(song) {
   title.innerText = song;
-  audio.src = `music/${song}.mp3`;
-  cover.src = `images/${song}.png`;
+  audio.src = `assets/music/${song}.mp3`;
+  cover.src = `assets/img/${song}.jpeg`;
 }
 
 // Play song
