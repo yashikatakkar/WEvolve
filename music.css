@@ -219,7 +219,8 @@
 
 body {
   background: rgb(122, 158, 125);  /* fallback for old browsers */
-  background-image: url("assets\img\musicpicture.jpeg");
+  background-image: url("assets/img/musicpicture.jpeg");
+  background-size:cover;
   
 
   
