@@ -4,7 +4,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #212529;
-  background-color: #FFF9F8;
+  background-color: #C3DBD9;
 }
 
 a {
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgb(253, 242, 240);
+  background: #CCD1E4;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #header .logo h1 {
@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero {
   width: 100%;
   height: 70vh;
-  background-image: linear-gradient(3deg, #DABEBA,#FFE5DE);
+  background-image: linear-gradient(3deg, #D3DEDC,#D3DEDC);
   border-bottom: 2px solid #fcebe3;
   margin-top: 20px;
 }
