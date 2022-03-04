@@ -8,8 +8,8 @@
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgb(196, 165, 173);
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  background: rgb(102, 143, 118);
+  box-shadow: 0px 2px 15px rgba(14, 204, 125, 0.1);
 }
 #header .logo h1 {
   font-size: 30px;
@@ -63,7 +63,7 @@
   color: #ffe7ed;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
-  background: #7a6960;
+  background: #7a6076;
   color: #fff;
   padding: 10px 25px;
   margin-left: 30px;
@@ -84,7 +84,7 @@
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(169, 191, 241, 0.25);
   transition: 0.3s;
 }
 .navbar .dropdown ul li {
@@ -218,8 +218,12 @@
 
 
 body {
-  background: rgb(34, 33, 33);  /* fallback for old browsers */
-  background-image: url("images/backgroundmus.png");
+  background: rgb(122, 158, 125);  /* fallback for old browsers */
+  background-image: url("assets/img/musicpicture.jpeg");
+  background-size:cover;
+  
+
+  
 
   height: 100vh;
   display: flex;
