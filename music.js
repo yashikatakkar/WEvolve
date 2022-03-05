@@ -12,7 +12,7 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 // Song titles
-const songs = ['kun faya kun', 'jashn bahara', 'music3', 'music4'];
+const songs = ['kun faya kun', 'jashn bahara', 'ever-so-blue', 'found'];
 
 // Keep track of song
 let songIndex = 2;
